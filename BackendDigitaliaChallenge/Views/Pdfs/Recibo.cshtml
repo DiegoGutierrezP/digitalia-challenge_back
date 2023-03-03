@@ -1,0 +1,86 @@
+﻿@model BackendDigitaliaChallenge.Models.Recibo;
+
+<html>
+    <head></head>
+    <body>
+        <table>
+            <tr>
+                <th colspan="2">
+                    Recibo @Model.id
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    Titulo
+                </th>
+                <td>
+                    @Model.titulo
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    Descripcion
+                </th>
+                <td>
+                    @Model.descripcion
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    Nombres
+                </th>
+                <td>
+                    @Model.nombres
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    Apellidos
+                </th>
+                <td>
+                    @Model.apellidos
+                </td>
+            </tr>
+             <tr>
+                <th colspan="2">
+                    Apellidos
+                </th>
+                <td>
+                    @Model.direccion
+                </td>
+            </tr>
+             <tr>
+                <th colspan="2">
+                    Tipo Documento
+                </th>
+                <td>
+                    @Model.tipoDoc
+                </td>
+            </tr>
+             <tr>
+                <th colspan="2">
+                    Número Documento
+                </th>
+                <td>
+                    @Model.numDoc
+                </td>
+            </tr>
+             <tr>
+                <th colspan="2">
+                    Moneda
+                </th>
+                <td>
+                    @Model.moneda
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    Monto
+                </th>
+                <td>
+                    @Model.monto
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
