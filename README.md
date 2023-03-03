@@ -2,7 +2,7 @@
 
 Proyecto backend del reto digitalia
 
-##Script para tablas en sql server
+## Script para tablas en sql server
 
 USE [digitalia_challenge]
 GO
